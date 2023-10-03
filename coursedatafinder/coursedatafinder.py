@@ -337,4 +337,3 @@ with open('coursedatafinder/coursedata.csv', 'w', newline = '') as file:
     for course in coursedata:
         csv_writer.writerow(course)
 
-# ONCE COMPLETED, MANUALLY REMOVE DUPLICATES FROM CSV FILE IN EXCEL
